@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADONAI FARMS WEATHER FORECASTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ADONAI FARMS WEATHER FORECASTER
+            </h1>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Enter city">
+                <button id="search-button">Search</button>
+            </div>
+        </header>
+
+        <div class="current-weather">
+            <h2>Current Weather</h2>
+            <p id="current-location">Location: </p>
+            <img id="current-icon" src="" alt="Current Weather Icon">
+            <p><span id="current-temp"></span> &#8451;</p>
+            <p>Condition: <span id="current-condition"></span></p>
+            <p>Humidity: <span id="current-humidity"></span>%</p>
+            <p>Wind Speed: <span id="current-wind"></span> m/s</p>
+            <p>Pressure: <span id="current-pressure"></span> hPa</p>
+        </div>
+
+        <div class="forecast">
+            <h2>Five-Day Forecast</h2>
+            <div class="forecast-cards">
+                <div class="forecast-card">
+                    <p class="forecast-date"></p>
+                    <img class="forecast-icon" src="" alt="Forecast Icon">
+                    <p>Temp: <span class="forecast-temp-min"></span>/ <span class="forecast-temp-max"></span> &#8451;</p>
+                    <p class="forecast-condition"></p>
+                </div>
+                <div class="forecast-card">
+                    <p class="forecast-date"></p>
+                    <img class="forecast-icon" src="" alt="Forecast Icon">
+                    <p>Temp: <span class="forecast-temp-min"></span>/ <span class="forecast-temp-max"></span> &#8451;</p>
+                    <p class="forecast-condition"></p>
+                </div>
+                <div class="forecast-card">
+                    <p class="forecast-date"></p>
+                    <img class="forecast-icon" src="" alt="Forecast Icon">
+                    <p>Temp: <span class="forecast-temp-min"></span>/ <span class="forecast-temp-max"></span> &#8451;</p>
+                    <p class="forecast-condition"></p>
+                </div>
+                <div class="forecast-card">
+                    <p class="forecast-date"></p>
+                    <img class="forecast-icon" src="" alt="Forecast Icon">
+                    <p>Temp: <span class="forecast-temp-min"></span>/ <span class="forecast-temp-max"></span> &#8451;</p>
+                    <p class="forecast-condition"></p>
+                </div>
+                <div class="forecast-card">
+                    <p class="forecast-date"></p>
+                    <img class="forecast-icon" src="" alt="Forecast Icon">
+                    <p>Temp: <span class="forecast-temp-min"></span>/ <span class="forecast-temp-max"></span> &#8451;</p>
+                    <p class="forecast-condition"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
